@@ -1,0 +1,184 @@
+.grace-body {
+  box-sizing: border-box;
+  padding: 0upx 30upx;
+  border-top: 2upx solid #e0e0e0;
+}
+
+button {
+  background-color: #ff5722 !important;
+  height: 64upx !important;
+  line-height: 64upx !important;
+}
+
+.ot-buttons {
+  margin: 10upx 0px;
+}
+
+.ot-home-qx {
+  font-size: 30upx;
+  margin-top: 30upx;
+  display: flex;
+  line-height: 35upx;
+  box-sizing: border-box;
+}
+
+.ot-home-qx.mn {
+  margin-bottom: 15upx;
+}
+
+.ot-home-qx text:nth-of-type(1) {
+  width: 6upx;
+  height: 35upx;
+  display: block;
+  background-color: #ff5722;
+  margin-right: 20upx;
+}
+
+.ot-home-qx text:nth-of-type(3) {
+  margin-left: 30upx;
+}
+
+.grace-idcard-items {
+  background: #fff;
+  padding: 30upx 0;
+  box-sizing: border-box;
+  width: 45%;
+  display: flex;
+  border-radius: 10upx;
+  align-items: flex-start;
+}
+
+.grace-idcard-uper-btn {
+  width: 99%;
+  background: #fff;
+  box-shadow: 2upx 2upx 12upx #ccc;
+  padding-bottom: 10upx;
+  border-radius: 10upx;
+  text-align: center;
+  position: relative;
+  border: 2upx dashed #f1f1f1;
+  float: left;
+}
+
+.grace-idcard-uper-btn .img {
+  width: 74upx;
+  height: 74upx;
+  margin: 0 auto;
+  margin-top: 25upx;
+}
+
+.grace-idcard-uper-btn .img image {
+  width: 74upx;
+  height: 74upx;
+}
+
+.grace-idcard-uper-btn .text {
+  width: 100%;
+  margin-top: 3upx;
+  text-align: center;
+  line-height: 2em;
+  height: 2em;
+  color: #999;
+  float: left;
+}
+
+.grace-idcard-preview {
+  width: 41%;
+  position: absolute;
+  height: 170upx;
+  border-radius: 10upx;
+}
+
+.grace-idcard-preview image {
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  background-color: #ff5722 !important;
+}
+
+.button-hover[type=primary] {
+  background-color: #ff5722;
+}
+
+.grace-idcard-uper-btn1 {
+  width: 100%;
+  height: 392upx;
+  border-radius: 10upx;
+  text-align: center;
+  position: relative;
+  border: 2upx dashed #f1f1f1;
+  float: left;
+}
+
+.grace-idcard-uper-btn1 image {
+  width: 100%;
+  height: 100%;
+}
+
+.ot-center {
+  text-align: center;
+  color: #666;
+  margin: 10upx 0px;
+}
+
+.ot-certi-fa {
+  color: #666;
+  margin-bottom: 20upx;
+  display: flex;
+  font-size: 26upx;
+}
+
+.grace-idcard-preview1 {
+  width: 668upx;
+  position: absolute;
+  height: 396upx;
+  top: 96upx;
+  left: 42upx;
+}
+
+.grace-idcard-preview1 image {
+  width: 100%;
+  height: 100%;
+  border-radius: 20upx;
+}
+
+.hq {
+  top: 564upx;
+}
+
+.ot-certi-fa image {
+  margin-right: 10upx;
+}
+
+.ot-logis-fl {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grace-border-radius {
+  border-radius: 10upx;
+}
+
+.grace-form .grace-items .input {
+  padding: 0px;
+}
+
+.grace-form .grace-items{
+	border:none !important;
+}
+
+.grace-form .grace-items .other {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.grace-items .other button {
+  padding: 0px 10upx;
+  margin: 0px;
+  margin-left: 20upx;
+  height: 50upx !important;
+  line-height: 50upx !important;
+  background-color: #ff5722;
+}

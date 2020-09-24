@@ -1,0 +1,18 @@
+{
+  "name": "vv",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "echarts": "file:echarts",
+    "js-audio-recorder": "^0.4.2",
+    "mpvue-echarts": "^0.3.1",
+    "v-charts": "^1.19.0",
+    "vue-clipboard2": "^0.3.1"
+  }
+}

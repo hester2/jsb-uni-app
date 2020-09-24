@@ -1,0 +1,262 @@
+.grace-filter {
+		top: 44px;
+	}
+
+	.ot-bg {
+		height: 20upx;
+		background-color: #eee;
+	}
+
+	.ot-sales-lr {
+		display: flex;
+		box-sizing: border-box;
+		padding: 18upx 25upx;
+		border-bottom: 1px solid #eee;
+	}
+
+	.ot-sales-lr .grace-items .input {
+		text-align: right;
+		color: #666;
+		font-size: 28upx;
+		margin-right: 0px;
+	}
+
+	.ot-sales-la {
+		width: 100%;
+		height: 100%;
+		padding: 20upx 35upx;
+		padding-top: 38upx;
+		box-sizing: border-box;
+	}
+
+	.ot-sales-lx {
+		width: 100%;
+		box-sizing: border-box;
+		padding-bottom: 10upx;
+		border-radius: 10upx;
+		border: 1px solid #ff5722;
+		position: relative;
+		margin-bottom: 38upx;
+	}
+
+	.ot-sales-lx .ot-image {
+		position: absolute;
+		top: -9px;
+		left: -8px;
+	}
+
+	.ot-sales-lc {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 10upx 20upx;
+		border-bottom: 1px solid #ff5722;
+	}
+
+	.ot-sales-lc .demo6 {
+		font-size: 26upx;
+	}
+
+	.ot-sales-lc .demo7 {
+		color: #ff5722;
+		font-size: 24upx;
+	}
+
+	.ot-sales-ln {
+		color: #646464;
+		padding: 0upx 20upx;
+		overflow: hidden;
+		height: 60upx;
+		line-height: 60upx;
+		text-overflow:ellipsis; 
+		white-space:nowrap;
+	}
+
+	.ot-sales-lm {
+		padding: 0upx 20upx;
+		box-sizing: border-box;
+		overflow: hidden;
+		height: 60upx;
+		line-height: 60upx;
+	}
+
+	.ot-sales-lm .demo6 {
+		color: #646464;
+	}
+	
+	.grace-space-between{
+		justify-content: space-between;
+	}
+	
+	.grace-space-between .demo6{
+		height: 60upx;
+		line-height: 60upx;
+		display: flex;
+		align-items: center;
+	}
+	.grace-space-between .demo7{
+		height: 60upx;
+		line-height: 60upx;
+		display: flex;
+		align-items: center;
+	}
+	
+	.grace-space-between .demo7 image{
+		display: block;
+	}
+
+	.ot-sales-lm .demo7 {
+		background-color: #ff5722;
+		color: #fff;
+		box-sizing: border-box;
+		padding: 0upx 20upx;
+		border-radius: 40upx;
+		font-size: 24upx;
+		line-height: 38upx;
+		height: 38upx;
+		margin-top: 4upx;
+	}
+
+	.ot-sales-dast .demo6 {
+		color: #f63f32;
+	}
+
+	.ot-sales-dast .demo7 {
+		color: #b2b2b2;
+	}
+
+	.ot-sales-dast {
+		padding: 0upx 20upx;
+		box-sizing: border-box;
+		overflow: hidden;
+		height: 60upx;
+		line-height: 60upx;
+	}
+
+	.ot-home-qx {
+		font-size: 30upx;
+		margin-top: 20upx;
+		box-sizing: border-box;
+		padding: 0px 30upx;
+		display: flex;
+		line-height: 35upx;
+		box-sizing: border-box;
+	}
+
+	.ot-home-qx.mn {
+		margin-bottom: 10upx;
+	}
+
+	.ot-home-qx text:nth-of-type(1) {
+		width: 6upx;
+		height: 35upx;
+		display: block;
+		background-color: #ff5722;
+		margin-right: 20upx;
+	}
+
+	.ot-home-qx text:nth-of-type(3) {
+		margin-left: 30upx;
+	}
+
+	.grace-box-banner {
+		padding: 12upx 0;
+		padding-bottom: 0upx;
+	}
+
+	.grace-box-banner .line1 {
+		color: #ff5722;
+	}
+
+	.grace-border-radius-small {
+		border-radius: 0upx;
+	}
+
+	.grace-box-banner .garce-items {
+		padding-bottom: 30upx;
+		width: 50%;
+	}
+
+	.grace-box-banner:nth-of-type(odd) {
+		padding-top: 0px;
+	}
+
+	.grace-search {
+		display: flex;
+		justify-content: flex-end;
+		margin: 0px;
+	}
+	.grace-search .text{
+		margin: 0px 30upx;
+		color: #666;
+	}
+
+	.ot-sales-lr .grace-items {
+		width: 80%;
+	}
+
+	.grace-bold {
+		width: 21%;
+	}
+
+	.grace-margin-top {
+		margin-top: 0px;
+	}
+
+	.grace-form .grace-items .input {
+		text-align: right;
+		width: 70%;
+		height: 60upx;
+		padding: 0px 20upx;
+		box-sizing: border-box;
+	}
+
+	.grace-filter .items {
+		width: 50%;
+	}
+
+	.grace-filter .items:nth-of-type(1) {
+		color: #ff5722;
+	}
+
+	.grace-select-tags {
+		display: flex;
+	}
+
+	.ot-bottom {
+		border-bottom: 1px solid #F1F2F3;
+	}
+
+	.demo1 {
+		position: relative;
+	}
+
+	.menus {
+		line-height: 100upx;
+		font-size: 28upx;
+		border-bottom: 1upx solid #e8e8e8;
+		margin-left: 30upx;
+		text-align: left;
+	}
+
+	.ot-menus {
+		color: #2B2B2B;
+		border: 0px solid #fff;
+		display: flex;
+	}
+
+	.ot-menus image {
+		font-weight: bold;
+		margin-top: 30upx;
+		margin-right: 20upx;
+		line-height: 90upx;
+	}
+
+	.ot-sales-lr .grace-search-in>.input {
+		text-align: right;
+		color: grey;
+		margin-right: 0px;
+		font-size: 28upx;
+	}
+	.ot-sales-lr .grace-search-in>.input picker .input{
+		font-size: 28upx;
+	}

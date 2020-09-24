@@ -1,0 +1,176 @@
+	/* h5 端需要动态增加 44px [ 避开默认的头部导航 ] */
+	.top1 {
+		top: 0;
+		height: 90upx;
+		background-color: #FFFFFF;
+	}
+.grace-tab-current {
+  border-bottom: 4upx solid #ff5722 !important;
+  color: #ff5722;
+  font-weight: 700;
+}
+
+.ot-console-ge.grace-news-list .item {
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.ot-console-ge .grace-margin-top {
+  margin: 0px 20upx;
+  padding: 0upx 20upx;
+  padding-top: 20upx;
+  border-radius: 10upx;
+  background: linear-gradient(to right, #f7dea9, #e9ce93);
+}
+
+.ot-console-ge .grace-grids .items {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0px 20upx;
+  margin-bottom: 25upx;
+}
+
+.ot-console-ge .grace-grids .items view {
+  width: 100%;
+  margin-bottom: 10upx;
+}
+
+.ot-console-ge .grace-grids .items view:nth-of-type(1) {
+  color: #a4a4a4;
+  font-size: 24upx;
+}
+
+.ot-console-ge .grace-grids .items view:nth-of-type(2) {
+  color: #ff5722;
+  font-size: 36upx;
+}
+
+.ot-console-ge .grace-grids .items view:nth-of-type(3) {
+  color: #ff5722;
+  font-size: 36upx;
+}
+
+.ot-bg {
+  height: 20upx;
+  background-color: #eee;
+}
+
+.ot-home-qx {
+  font-size: 30upx;
+  margin-top: 30upx;
+  display: flex;
+  line-height: 17px;
+  box-sizing: border-box;
+  margin-left: 20upx;
+}
+
+.ot-home-qx.mn {
+  margin-bottom: 20upx;
+}
+
+.ot-home-qx text:nth-of-type(1) {
+  width: 6upx;
+  height: 34upx;
+  display: block;
+  background-color: #ff5722;
+  margin-right: 20upx;
+}
+
+.ot-home-qx text:nth-of-type(2) {
+  font-weight: bold;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.canvas {
+  width: 624upx;
+  height: 624upx;
+  text-align: center;
+}
+
+.mf {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.grace-news-list.fl {
+  padding: 25upx;
+  box-sizing: border-box;
+}
+
+.grace-news-list .item {
+  display: block;
+}
+
+.ot-mall-ech {
+  width: 100%;
+  height: 760upx;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-bottom: 30upx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ot-mall-pie{
+	height: 500upx !important;
+}
+
+.ec-canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.ot-console-fl {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20upx;
+}
+
+.ot-console-fl image {
+  width: 50upx;
+  margin-right: 20upx;
+}
+
+.ot-console-fl view {
+  color: #885e24;
+}
+
+.ot-console-fl view:nth-of-type(1) {
+  margin-right: 25upx;
+}
+
+.ot-margin {
+  height: 100upx;
+}
+
+/* tab */
+
+.grace-tab-title view {
+  padding: 0px 20upx;
+}
+
+.grace-tab-title {
+  position: fixed;
+  z-index: 9999;
+	height:86upx ;
+}
+
+.grace-tab-swiper-full .ot-infor-mv {
+  margin-top: 86upx;
+  padding-top: 10upx;
+}
+
+
+.grace-tab-swiper-full scroll-view {
+  padding-bottom: 40px !important;
+  box-sizing: border-box;
+}

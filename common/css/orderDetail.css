@@ -1,0 +1,149 @@
+page {
+	background-color: #eee;
+}
+
+.ot-Dtailes-host {
+	margin: 20upx 20upx;
+	background-color: #fff;
+	padding: 0px 25upx;
+	border-radius: 10upx;
+	padding-bottom: 30upx;
+}
+
+.icon-dingdan:before {
+	content: "\e608";
+}
+
+.hj.grace-list .items .icons {
+	color: #5ca7e2;
+	font-size: 36upx !important;
+}
+
+.hj.grace-list .items .body {
+	margin-left: 5px;
+	padding: 2px 0px;
+}
+
+.hj.grace-list .items {
+	border-bottom: 1px dashed #ccc;
+	margin: 0px;
+	margin-bottom: 30upx;
+}
+
+.hj.grace-list {
+	padding: 0px;
+}
+
+.ot-daile-mast {
+	background-color: #ff5722;
+	border-radius: 40upx;
+	height: 35upx;
+	text-align: center;
+	line-height: 35upx;
+	font-size: 24upx;
+	color: #fff;
+	width: 17%;
+	padding: 0px 10upx;
+}
+
+.grace-space-between {
+	margin-top: 15upx;
+}
+
+.grace-space-between .demo6 {
+	color: #999;
+	font-size: 24upx;
+}
+
+.grace-space-between .demo7 {
+	color: #999;
+	font-size: 24upx;
+	overflow: hidden;
+	width: 550upx;
+	text-align: right;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.ot-button {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0px 20upx;
+	margin-top: 30upx;
+}
+
+.grace-form .grace-items .other {
+	margin-left: 0px;
+}
+
+button {
+	background-color: #ff5722 !important;
+	height: 75upx !important;
+	line-height: 75upx !important;
+}
+
+.grace-list>.items>.icons {
+	width: 48upx;
+}
+
+.ot-rq {
+	color: #999;
+	margin-top: 5upx;
+}
+
+.hj .body {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.grace-list .items .title {
+	width: 150upx;
+	font-size: 30upx;
+}
+
+/*  */
+.ot-daile-ft {
+	display: flex;
+	flex-direction: row;
+	width: 600upx;
+	justify-content: flex-end;
+}
+
+.ot-daile-mast {
+	background-color: #FF5722;
+	border-radius: 40upx;
+	height: 35upx;
+	text-align: center;
+	line-height: 35upx;
+	font-size: 24upx;
+	color: #fff;
+	width: 100upx;
+	margin-left: 20upx;
+	padding: 0px 0upx;
+}
+
+.ot-daile-ask {
+	background-color: #1E9FFF;
+	border-radius: 40upx;
+	height: 35upx;
+	text-align: center;
+	line-height: 35upx;
+	font-size: 24upx;
+	color: #fff;
+	width: 120upx;
+	margin-left: 20upx;
+	padding: 0px 0upx;
+}
+
+.ot-daile-yt {
+	background-color: #447D66;
+	border-radius: 40upx;
+	height: 35upx;
+	text-align: center;
+	line-height: 35upx;
+	font-size: 24upx;
+	color: #fff;
+	width: 120upx;
+	margin-left: 20upx;
+}

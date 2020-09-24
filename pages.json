@@ -1,0 +1,1850 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/customer/myHome/index",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor": "#E7412A"
+			}
+		},
+		{
+			"path": "pages/financial/myHome/index",
+			"style": {
+				"navigationBarTitleText": "财务",
+				"navigationBarBackgroundColor": "#E7412A"
+			}
+		},
+		{
+			"path": "pages/supplier/profile/index",
+			"style": {
+				"navigationBarTitleText": "供应商",
+				"navigationBarBackgroundColor": "#E7412A"
+			}
+		},
+		{
+			"path": "pages/financial/report/dailySummary/index",
+			"style": {
+				"navigationBarTitleText": "业务汇总表"
+			}
+		},
+		{
+			"path": "pages/financial/report/dailySummaryDetail/index",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/financial/report/dailyInvoice/index",
+			"style": {
+				"navigationBarTitleText": "发票明细表",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/financial/report/dailyInvoiceDetail/index",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/financial/report/dailyInventoryDetail/index",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/financial/report/dailyMoneyDetail/index",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/driver/main/console/index",
+			"style": {
+				"navigationBarTitleText": "控制台"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/myHome/index",
+			"style": {
+				"navigationBarTitleText": "我方物流",
+				"navigationBarBackgroundColor": "#E7412A"
+			}
+		},
+		{
+			"path": "pages/thirdLogistics/myHome/index",
+			"style": {
+				"navigationBarTitleText": "第三方物流",
+				"navigationBarBackgroundColor": "#E7412A"
+			}
+		},
+		{
+			"path": "pages/sales/mysales/index",
+			"style": {
+				"navigationBarTitleText": "客服",
+				"navigationBarBackgroundColor": "#E7412A"
+			}
+		},
+		{
+			"path": "pages/procurement/myHome/index",
+			"style": {
+				"navigationBarTitleText": "采购",
+				"navigationBarBackgroundColor": "#E7412A"
+			}
+		},
+		{
+			"path": "pages/cashier/myHome/index",
+			"style": {
+				"navigationBarTitleText": "出纳",
+				"navigationBarBackgroundColor": "#E7412A"
+			}
+		},
+		{
+			"path": "pages/driver/order/myOrder/index",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{
+			"path": "pages/driver/order/orderDetail/index",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/driver/setUp/grsetUp/index",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/driver/setUp/editData/index",
+			"style": {
+				"navigationBarTitleText": "修改资料"
+			}
+		},
+		
+		{
+			"path": "pages/supplier/addQuotation/index",
+			"style": {
+				"navigationBarTitleText": "添加报价"
+			}
+		},
+		{
+			"path": "pages/supplier/addWarehouse/index",
+			"style": {
+				"navigationBarTitleText": "添加仓库"
+			}
+		},
+		{
+			"path": "pages/supplier/myQuotes/index",
+			"style": {
+				"navigationBarTitleText": "我的报价"
+			}
+		},
+		{
+			"path": "pages/supplier/editQuotation/index",
+			"style": {
+				"navigationBarTitleText": "我的报价"
+			}
+		},
+		{
+			"path": "pages/supplier/addQuotation/index",
+			"style": {
+				"navigationBarTitleText": "添加报价"
+			}
+		},
+		{
+			"path": "pages/supplier/salesOrder/index",
+			"style": {
+				"navigationBarTitleText": "销售订单"
+			}
+		},
+		{
+			"path": "pages/supplier/salesOrderDetail/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/supplier/salesContract/index",
+			"style": {
+				"navigationBarTitleText": "合同信息"
+			}
+		},
+		{
+			"path": "pages/supplier/salesInvoice/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "开票信息"
+			}
+		},
+		{
+			"path": "pages/supplier/profileSend/index",
+			"style": {
+				"navigationBarTitleText": "派送订单"
+			}
+		},
+		{
+			"path": "pages/supplier/profileSendDetail/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "派送详情"
+			}
+		},
+		{
+			"path": "pages/supplier/profileSendLogistics/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "物流信息"
+			}
+		},
+		{
+			"path": "pages/supplier/profileWarehouse/index",
+			"style": {
+				"navigationBarTitleText": "我的仓库"
+			}
+		},
+		{
+			"path": "pages/supplier/editWarehouse/index",
+			"style": {
+				"navigationBarTitleText": "编辑仓库"
+			}
+		},
+		{
+			"path": "pages/supplier/setUp/grsetUp/index",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/supplier/setUp/editData/index",
+			"style": {
+				"navigationBarTitleText": "修改资料"
+			}
+		},
+		
+		{
+			"path": "pages/thirdLogistics/setUp/grsetUp/index",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/thirdLogistics/setUp/editData/index",
+			"style": {
+				"navigationBarTitleText": "修改资料"
+			}
+		},
+		{
+			"path": "pages/thirdLogistics/main/console/index",
+			"style": {
+				"navigationBarTitleText": "控制台"
+			}
+		},
+		{
+			"path": "pages/thirdLogistics/order/myOrder/index",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{
+			"path": "pages/thirdLogistics/order/orderDetail/index",
+			"style": {
+				"navigationBarTitleText": "详细信息"
+			}
+		},
+		{
+			"path": "pages/thirdLogistics/order/salesDetail/index",
+			"style": {
+				"navigationBarTitleText": "销售订单信息"
+			}
+		},
+		{
+			"path": "pages/thirdLogistics/order/salesLogisticsDetail/index",
+			"style": {
+				"navigationBarTitleText": "物流信息"
+			}
+		},
+		{
+			"path": "pages/thirdLogistics/order/salesLogistics/index",
+			"style": {
+				"navigationBarTitleText": "物流信息"
+			}
+		},
+		{
+			"path": "pages/thirdLogistics/order/moneyDetail/index",
+			"style": {
+				"navigationBarTitleText": "派发详情"
+			}
+		},
+		{
+			"path": "pages/thirdLogistics/order/moneyLogistics/index",
+			"style": {
+				"navigationBarTitleText": "物流信息"
+			}
+		},
+		{
+			"path": "pages/thirdLogistics/order/moneyLogisticsDetail/index",
+			"style": {
+				"navigationBarTitleText": "物流信息"
+			}
+		},
+		{
+			"path": "pages/thirdLogistics/vehicle/carList/index",
+			"style": {
+				"navigationBarTitleText": "我的车辆"
+			}
+		},
+		{
+			"path": "pages/thirdLogistics/vehicle/carDtaile/index",
+			"style": {
+				"navigationBarTitleText": "车辆信息"
+			}
+		},
+		{
+			"path": "pages/thirdLogistics/vehicle/addCar/index",
+			"style": {
+				"navigationBarTitleText": "添加车辆"
+			}
+		},
+		{
+			"path": "pages/thirdLogistics/vehicle/editCar/index",
+			"style": {
+				"navigationBarTitleText": "编辑车辆"
+			}
+		},
+		{
+			"path": "pages/thirdLogistics/driver/driverList/index",
+			"style": {
+				"navigationBarTitleText": "我的司机"
+			}
+		},
+		{
+			"path": "pages/thirdLogistics/driver/addDriver/index",
+			"style": {
+				"navigationBarTitleText": "添加司机"
+			}
+		},
+		{
+			"path": "pages/thirdLogistics/driver/editDriver/index",
+			"style": {
+				"navigationBarTitleText": "编辑司机"
+			}
+		},
+		{
+			"path": "pages/financial/menu/index",
+			"style": {
+				"navigationBarTitleText": "财务"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/menu/index",
+			"style": {
+				"navigationBarTitleText": "我方物流"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/setUp/editData/index",
+			"style": {
+				"navigationBarTitleText": "修改资料"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/setUp/grsetUp/index",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/sales/salesList/index",
+			"style": {
+				"navigationBarTitleText": "销售订单"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/sales/salesDetail/index",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/sales/salesLogistics/index",
+			"style": {
+				"navigationBarTitleText": "物流信息",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/money/moneyList/index",
+			"style": {
+				"navigationBarTitleText": "预付款订单"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/money/moneyDetail/index",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/money/moneyLogistics/index",
+			"style": {
+				"navigationBarTitleText": "物流信息",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/main/console/index",
+			"style": {
+				"navigationBarTitleText": "控制台"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/procurement/procurementList/index",
+			"style": {
+				"navigationBarTitleText": "采购订单"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/procurement/procurementSummary/index",
+			"style": {
+				"navigationBarTitleText": "订单汇总"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/procurement/procurementDetail/index",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/procurement/procurementInvoice/index",
+			"style": {
+				"navigationBarTitleText": "开票信息"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/procurement/procurementContract/index",
+			"style": {
+				"navigationBarTitleText": "合同信息",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/procurement/procurementPay/index",
+			"style": {
+				"navigationBarTitleText": "支付信息",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/procurement/toSales/index",
+			"style": {
+				"navigationBarTitleText": "查看销售"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/procurement/customerBack/index",
+			"style": {
+				"navigationBarTitleText": "客户回款"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/procurement/customerSubmit/index",
+			"style": {
+				"navigationBarTitleText": "回款提交"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/procurement/associatedSales/index",
+			"style": {
+				"navigationBarTitleText": "关联销售"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/procurement/sales/salesDetail/index",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/procurement/sales/salesInvoice/index",
+			"style": {
+				"navigationBarTitleText": "开票信息"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/procurement/sales/salesPay/index",
+			"style": {
+				"navigationBarTitleText": "支付信息"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/procurement/sales/salesLogistics/index",
+			"style": {
+				"navigationBarTitleText": "物流信息"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/procurement/sales/salesContract/index",
+			"style": {
+				"navigationBarTitleText": "合同信息"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/procurement/money/moneyDetail/index",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/procurement/money/moneyContract/index",
+			"style": {
+				"navigationBarTitleText": "合同信息"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/procurement/money/moneyPay/index",
+			"style": {
+				"navigationBarTitleText": "支付信息"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/procurement/money/moneyReceive/index",
+			"style": {
+				"navigationBarTitleText": "发票/签收信息"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/procurement/money/moneySplit/index",
+			"style": {
+				"navigationBarTitleText": "拆单信息"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/procurement/money/moneyLogistics/index",
+			"style": {
+				"navigationBarTitleText": "物流信息"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/procurement/money/moneyTrajectory/index",
+			"style": {
+				"navigationBarTitleText": "轨迹"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/procurement/money/moneyPositioning/index",
+			"style": {
+				"navigationBarTitleText": "定位"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/procurement/money/moneyMonitoring/index",
+			"style": {
+				"navigationBarTitleText": "实时监控"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/associated/associatedList/index",
+			"style": {
+				"navigationBarTitleText": "关联订单"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/associated/associatedDetail/index",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/logistics/logisticsList/index",
+			"style": {
+				"navigationBarTitleText": "物流订单"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/logistics/dailyPush/index",
+			"style": {
+				"navigationBarTitleText": "推送订单"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/logistics/dailyDelivery/index",
+			"style": {
+				"navigationBarTitleText": "订单发货"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/logistics/logisticsDtaile/index",
+			"style": {
+				"navigationBarTitleText": "派发详情"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/logistics/salesLogisticsDetail/index",
+			"style": {
+				"navigationBarTitleText": "物流信息"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/logistics/salesLogistics/index",
+			"style": {
+				"navigationBarTitleText": "物流信息"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/logisticsDetail/logisticsList/index",
+			"style": {
+				"navigationBarTitleText": "物流详情"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/order/logisticsDetail/logisticsDetail/index",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/vehicle/carList/index",
+			"style": {
+				"navigationBarTitleText": "我的车辆"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/vehicle/carDtaile/index",
+			"style": {
+				"navigationBarTitleText": "车辆详情"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/vehicle/editCar/index",
+			"style": {
+				"navigationBarTitleText": "编辑车辆"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/vehicle/addCar/index",
+			"style": {
+				"navigationBarTitleText": "添加车辆"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/driver/driverList/index",
+			"style": {
+				"navigationBarTitleText": "我的司机"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/driver/editDriver/index",
+			"style": {
+				"navigationBarTitleText": "编辑司机"
+			}
+		},
+		{
+			"path": "pages/ourLogistics/driver/addDriver/index",
+			"style": {
+				"navigationBarTitleText": "添加司机"
+			}
+		},
+		{
+			"path": "pages/financial/main/console/index",
+			"style": {
+				"navigationBarTitleText": "控制台"
+			}
+		},
+		{
+			"path": "pages/financial/financial/receivableList/index",
+			"style": {
+				"navigationBarTitleText": "应收账款"
+			}
+		},
+		{
+			"path": "pages/financial/financial/payableList/index",
+			"style": {
+				"navigationBarTitleText": "应付账款"
+			}
+		},
+		{
+			"path": "pages/financial/financial/receivableDetail/index",
+			"style": {
+				"navigationBarTitleText": "收款明细"
+			}
+		},
+		{
+			"path": "pages/financial/financial/payableDetail/index",
+			"style": {
+				"navigationBarTitleText": "付款明细"
+			}
+		},
+		{
+			"path": "pages/financial/order/procurement/procurementList/index",
+			"style": {
+				"navigationBarTitleText": "采购订单"
+			}
+		},
+		{
+			"path": "pages/financial/order/procurement/procurementDetail/index",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/financial/order/procurement/procurementInvoice/index",
+			"style": {
+				"navigationBarTitleText": "开票信息"
+			}
+		},
+		{
+			"path": "pages/financial/order/procurement/procurementContract/index",
+			"style": {
+				"navigationBarTitleText": "合同信息",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/financial/order/sales/salesList/index",
+			"style": {
+				"navigationBarTitleText": "销售订单"
+			}
+		},
+		{
+			"path": "pages/financial/order/sales/salesDetail/index",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/financial/order/procurement/procurementPay/index",
+			"style": {
+				"navigationBarTitleText": "支付信息",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/financial/order/sales/salesInvoice/index",
+			"style": {
+				"navigationBarTitleText": "开票信息"
+			}
+		},
+		{
+			"path": "pages/financial/order/sales/salesContract/index",
+			"style": {
+				"navigationBarTitleText": "合同信息"
+			}
+		},
+		{
+			"path": "pages/financial/order/sales/salesPay/index",
+			"style": {
+				"navigationBarTitleText": "支付信息"
+			}
+		},
+		{
+			"path": "pages/financial/report/dailySales/index",
+			"style": {
+				"navigationBarTitleText": "销售报表"
+			}
+		},
+		{
+			"path": "pages/financial/report/dailySalesDetail/index",
+			"style": {
+				"navigationBarTitleText": "销售报表详情"
+			}
+		},
+		{
+			"path": "pages/financial/report/dailyProcurement/index",
+			"style": {
+				"navigationBarTitleText": "采购报表"
+			}
+		},
+		{
+			"path": "pages/financial/report/dailyProcurementDetail/index",
+			"style": {
+				"navigationBarTitleText": "采购报表详情"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "金塑宝"
+			}
+		},
+		{
+			"path": "pages/cashier/menu/index",
+			"style": {
+				"navigationBarTitleText": "出纳"
+			}
+		},
+		{
+			"path": "pages/cashier/main/console/index",
+			"style": {
+				"navigationBarTitleText": "控制台"
+			}
+		},
+		{
+			"path": "pages/cashier/financial/receivableList/index",
+			"style": {
+				"navigationBarTitleText": "应收账款"
+			}
+		},
+		{
+			"path": "pages/cashier/financial/receivableDetail/index",
+			"style": {
+				"navigationBarTitleText": "收款明细"
+			}
+		},
+		{
+			"path": "pages/cashier/financial/payableList/index",
+			"style": {
+				"navigationBarTitleText": "应付账款"
+			}
+		},
+		{
+			"path": "pages/cashier/financial/payableDetail/index",
+			"style": {
+				"navigationBarTitleText": "付款明细"
+			}
+		},
+		{
+			"path": "pages/cashier/order/procurement/procurementList/index",
+			"style": {
+				"navigationBarTitleText": "采购订单"
+			}
+		},
+		{
+			"path": "pages/cashier/order/procurement/toSales/index",
+			"style": {
+				"navigationBarTitleText": "查看销售"
+			}
+		},
+		{
+			"path": "pages/cashier/order/procurement/customerBack/index",
+			"style": {
+				"navigationBarTitleText": "客户回款"
+			}
+		},
+		{
+			"path": "pages/cashier/order/procurement/customerSubmit/index",
+			"style": {
+				"navigationBarTitleText": "客户提交"
+			}
+		},
+		{
+			"path": "pages/cashier/order/procurement/associatedSales/index",
+			"style": {
+				"navigationBarTitleText": "关联销售"
+			}
+		},
+		{
+			"path": "pages/cashier/order/procurement/procurementDetail/index",
+			"style": {
+				"navigationBarTitleText": "采购详情"
+			}
+		},
+		{
+			"path": "pages/cashier/order/procurement/procurementInvoice/index",
+			"style": {
+				"navigationBarTitleText": "开票信息"
+			}
+		},
+		{
+			"path": "pages/cashier/order/procurement/procurementContract/index",
+			"style": {
+				"navigationBarTitleText": "合同信息",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/cashier/order/procurement/procurementPay/index",
+			"style": {
+				"navigationBarTitleText": "支付信息"
+			}
+		},
+		{
+			"path": "pages/cashier/order/sales/salesList/index",
+			"style": {
+				"navigationBarTitleText": "销售订单"
+			}
+		},
+		{
+			"path": "pages/cashier/order/sales/salesDetail/index",
+			"style": {
+				"navigationBarTitleText": "销售详情"
+			}
+		},
+		{
+			"path": "pages/cashier/order/sales/salesInvoice/index",
+			"style": {
+				"navigationBarTitleText": "开票信息"
+			}
+		},
+		{
+			"path": "pages/cashier/order/sales/salesContract/index",
+			"style": {
+				"navigationBarTitleText": "合同信息"
+			}
+		},
+		{
+			"path": "pages/cashier/order/sales/salesPay/index",
+			"style": {
+				"navigationBarTitleText": "收款信息"
+			}
+		},
+		{
+			"path": "pages/cashier/order/money/moneyList/index",
+			"style": {
+				"navigationBarTitleText": "预付款订单"
+			}
+		},
+		{
+			"path": "pages/cashier/order/money/moneyDetail/index",
+			"style": {
+				"navigationBarTitleText": "预付款详情"
+			}
+		},
+		{
+			"path": "pages/cashier/order/money/moneyContract/index",
+			"style": {
+				"navigationBarTitleText": "合同信息",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/cashier/order/money/moneyPay/index",
+			"style": {
+				"navigationBarTitleText": "支付信息",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/cashier/order/money/moneySplit/index",
+			"style": {
+				"navigationBarTitleText": "拆单信息",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/cashier/report/dailySales/index",
+			"style": {
+				"navigationBarTitleText": "销售报表"
+			}
+		},
+		{
+			"path": "pages/cashier/report/dailySalesDetail/index",
+			"style": {
+				"navigationBarTitleText": "销售报表详情"
+			}
+		},
+		{
+			"path": "pages/cashier/report/dailyProcurement/index",
+			"style": {
+				"navigationBarTitleText": "采购报表"
+			}
+		},
+		{
+			"path": "pages/cashier/report/dailyProcurementDetail/index",
+			"style": {
+				"navigationBarTitleText": "采购报表详情"
+			}
+		},
+		{
+			"path": "pages/cashier/record/recordList/index",
+			"style": {
+				"navigationBarTitleText": "来款记录"
+			}
+		},
+		{
+			"path": "pages/cashier/record/addCustomer/index",
+			"style": {
+				"navigationBarTitleText": "添加客户"
+			}
+		},
+		{
+			"path": "pages/cashier/record/addDtaile/index",
+			"style": {
+				"navigationBarTitleText": "添加信息"
+			}
+		},
+		{
+			"path": "pages/cashier/record/editCustomer/index",
+			"style": {
+				"navigationBarTitleText": "编辑信息"
+			}
+		},
+		{
+			"path": "pages/sales/menu/index",
+			"style": {
+				"navigationBarTitleText": "客服"
+			}
+		},
+		{
+			"path": "pages/sales/main/console/index",
+			"style": {
+				"navigationBarTitleText": "控制台",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/sales/main/addOrder/index",
+			"style": {
+				"navigationBarTitleText": "选择客户"
+			}
+		},
+		{
+			"path": "pages/sales/order/sales/addOrder/index",
+			"style": {
+				"navigationBarTitleText": "下单"
+			}
+		},
+		{
+			"path": "pages/sales/main/searchList/index",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/sales/main/historical/index",
+			"style": {
+				"navigationBarTitleText": "历史报价"
+			}
+		},
+		{
+			"path": "pages/sales/order/sales/salesList/index",
+			"style": {
+				"navigationBarTitleText": "销售订单"
+			}
+		},
+		{
+			"path": "pages/sales/order/sales/quickOrder/quickDetail/index",
+			"style": {
+				"navigationBarTitleText": "基础信息"
+			}
+		},
+		{
+			"path": "pages/sales/order/sales/quickOrder/quickContract/index",
+			"style": {
+				"navigationBarTitleText": "合同信息"
+			}
+		},
+		{
+			"path": "pages/sales/order/sales/quickOrder/quickInvoice/index",
+			"style": {
+				"navigationBarTitleText": "开票信息"
+			}
+		},
+		{
+			"path": "pages/sales/order/sales/quickOrder/quickPay/index",
+			"style": {
+				"navigationBarTitleText": "支付信息",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/sales/order/sales/salesDetail/index",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/sales/order/sales/salesContract/index",
+			"style": {
+				"navigationBarTitleText": "合同信息"
+			}
+		},
+		{
+			"path": "pages/sales/order/sales/salesInvoice/index",
+			"style": {
+				"navigationBarTitleText": "开票信息"
+			}
+		},
+		{
+			"path": "pages/sales/order/sales/salesPay/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "支付信息"
+			}
+		},
+		{
+			"path": "pages/sales/order/sales/salesLogistics/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "物流信息"
+			}
+		},
+		{
+			"path": "pages/sales/order/sales/salesPositioning/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "定位"
+			}
+		},
+		{
+			"path": "pages/sales/order/sales/salesTrajectory/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "轨迹"
+			}
+		},
+		{
+			"path": "pages/sales/order/sales/salesMonitoring/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "实时监控"
+			}
+		},
+		{
+			"path": "pages/sales/order/summary/summaryList/index",
+			"style": {
+				"navigationBarTitleText": "订单统计"
+			}
+		},
+		{
+			"path": "pages/sales/order/summary/summaryDetail/index",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/sales/order/money/moneyList/index",
+			"style": {
+				"navigationBarTitleText": "预付款订单"
+			}
+		},
+		{
+			"path": "pages/sales/order/money/moneyDetail/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/sales/order/money/moneyContract/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "合同信息"
+			}
+		},
+		{
+			"path": "pages/sales/order/money/moneyPay/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "支付信息"
+			}
+		},
+		{
+			"path": "pages/sales/order/money/moneyAgain/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "再销售订单"
+			}
+		},
+		{
+			"path": "pages/sales/order/money/moneyLogistics/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "物流信息"
+			}
+		},
+		{
+			"path": "pages/sales/order/money/salesPositioning/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "定位"
+			}
+		},
+		{
+			"path": "pages/sales/order/money/salesTrajectory/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "轨迹"
+			}
+		},
+		{
+			"path": "pages/sales/order/money/salesMonitoring/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "实时监控"
+			}
+		},
+		{
+			"path": "pages/sales/customer/customerList/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的客户"
+			}
+		},
+		{
+			"path": "pages/sales/customer/analysisList/index",
+			"style": {
+				"navigationBarTitleText": "客户中心"
+			}
+		},
+		{
+			"path": "pages/sales/customer/addPersonal/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "添加个人"
+			}
+		},
+		{
+			"path": "pages/sales/customer/addEnterprise/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "添加企业"
+			}
+		},
+		{
+			"path": "pages/sales/customer/addAssociated/index",
+			"style": {
+				"navigationBarTitleText": "关联订单"
+			}
+		},
+		{
+			"path": "pages/sales/customer/customerDtaile/index",
+			"style": {
+				"navigationBarTitleText": "客户详情"
+			}
+		},
+		{
+			"path": "pages/sales/customer/customerInvoice/index",
+			"style": {
+				"navigationBarTitleText": "开票信息"
+			}
+		},
+		{
+			"path": "pages/sales/customer/customerContact/index",
+			"style": {
+				"navigationBarTitleText": "联系人"
+			}
+		},
+		{
+			"path": "pages/sales/customer/customerUpload/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "上传证件"
+			}
+		},
+		{
+			"path": "pages/customer/setUp/grsetUp/index",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/customer/setUp/editData/index",
+			"style": {
+				"navigationBarTitleText": "修改资料"
+			}
+		},
+		{
+			"path": "pages/customer/console/index",
+			"style": {
+				"navigationBarTitleText": "控制台"
+			}
+		},
+		{
+			"path": "pages/customer/myOrder/index",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"pullToRefresh": {
+						"support": true,
+						"color": "#ff5722",
+						"style": "default",
+						"contentdown": {
+							"caption": "ooo"
+						},
+						"contentover": {
+							"caption": "lll"
+						},
+						"contentrefresh": {
+							"caption": "hhh"
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/customer/orderDtaile/index",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/customer/customerContract/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "合同信息"
+			}
+		},
+		{
+			"path": "pages/customer/customerPay/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "支付信息"
+			}
+		},
+		{
+			"path": "pages/customer/customerAgain/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "在销售订单"
+			}
+		},
+		{
+			"path": "pages/customer/customerLogistics/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "物流信息"
+			}
+		},
+		{
+			"path": "pages/customer/customerPositioning/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "定位"
+			}
+		},
+		{
+			"path": "pages/customer/customerTrajectory/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "轨迹"
+			}
+		},
+		{
+			"path": "pages/customer/customerMonitoring/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "实时监控"
+			}
+		},
+		{
+			"path": "pages/customer/myContact/index",
+			"style": {
+				"navigationBarTitleText": "联系人"
+			}
+		},
+		{
+			"path": "pages/customer/editContact/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "编辑联系人"
+			}
+		},
+		{
+			"path": "pages/customer/addContact/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "添加联系人"
+			}
+		},
+		{
+			"path": "pages/customer/addOrder/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "客户下单",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/customer/myCustomer/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的客户"
+			}
+		},
+		{
+			"path": "pages/customer/customerInvoice/index",
+			"style": {
+				"navigationBarTitleText": "开票信息"
+			}
+		},
+		{
+			"path": "pages/procurement/menu/index",
+			"style": {
+				"navigationBarTitleText": "采购"
+			}
+		},
+		{
+			"path": "pages/procurement/main/console/index",
+			"style": {
+				"navigationBarTitleText": "控制台"
+			}
+		},
+		{
+			"path": "pages/procurement/offer/offerList/index",
+			"style": {
+				"navigationBarTitleText": "我的报价"
+			}
+		},
+		{
+			"path": "pages/procurement/offer/offerDetail/index",
+			"style": {
+				"navigationBarTitleText": "发布报价"
+			}
+		},
+		{
+			"path": "pages/procurement/offer/upstreamList/index",
+			"style": {
+				"navigationBarTitleText": "上游报价"
+			}
+		},
+		{
+			"path": "pages/procurement/offer/upstreamBuy/index",
+			"style": {
+				"navigationBarTitleText": "采购下单"
+			}
+		},
+		{
+			"path": "pages/procurement/order/procurement/orderList/index",
+			"style": {
+				"navigationBarTitleText": "采购订单"
+			}
+		},
+		{
+			"path": "pages/procurement/order/procurement/orderBasic/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "采购详情"
+			}
+		},
+		{
+			"path": "pages/procurement/order/procurement/orderContract/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "采购合同"
+			}
+		},
+		{
+			"path": "pages/procurement/order/procurement/orderPay/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "支付信息"
+			}
+		},
+		{
+			"path": "pages/procurement/order/procurement/temporaryOrder/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "临时下单"
+			}
+		},
+		{
+			"path": "pages/procurement/order/procurement/addOrder/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "采购下单"
+			}
+		},
+		{
+			"path": "pages/procurement/order/procurement/temporaryContract/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "合同信息"
+			}
+		},
+		{
+			"path": "pages/procurement/order/procurement/temporaryPay/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "支付信息"
+			}
+		},
+		{
+			"path": "pages/procurement/order/procurement/orderDetail/index",
+			"style": {
+				"navigationBarTitleText": "查看销售"
+			}
+		},
+		{
+			"path": "pages/procurement/order/procurement/associatedSales/index",
+			"style": {
+				"navigationBarTitleText": "关联销售"
+			}
+		},
+		{
+			"path": "pages/procurement/order/procurement/customerBack/index",
+			"style": {
+				"navigationBarTitleText": "客户回款"
+			}
+		},
+		{
+			"path": "pages/procurement/order/procurement/customerBack/index",
+			"style": {
+				"navigationBarTitleText": "客户回款"
+			}
+		},
+		{
+			"path": "pages/procurement/order/procurement/customerSubmit/index",
+			"style": {
+				"navigationBarTitleText": "回款提交"
+			}
+		},
+		{
+			"path": "pages/procurement/order/sales/salesList/index",
+			"style": {
+				"navigationBarTitleText": "销售订单"
+			}
+		},
+		{
+			"path": "pages/procurement/order/sales/toProcurement/index",
+			"style": {
+				"navigationBarTitleText": "查看采购"
+			}
+		},
+		{
+			"path": "pages/procurement/order/sales/salesDetail/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "销售详情"
+			}
+		},
+		{
+			"path": "pages/procurement/order/sales/salesContract/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "合同信息"
+			}
+		},
+		{
+			"path": "pages/procurement/order/sales/salespay/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "支付信息"
+			}
+		},
+		{
+			"path": "pages/procurement/order/sales/salesLogistics/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "物流信息"
+			}
+		},
+		{
+			"path": "pages/procurement/order/sales/salesPositioning/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "定位"
+			}
+		},
+		{
+			"path": "pages/procurement/order/sales/salesTrajectory/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "轨迹"
+			}
+		},
+		{
+			"path": "pages/procurement/order/sales/salesMonitoring/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "实时监控"
+			}
+		},
+		{
+			"path": "pages/procurement/offer/editOfferList/index",
+			"style": {
+				"navigationBarTitleText": "编辑报价"
+			}
+		},
+
+		{
+			"path": "pages/mall/index",
+			"style": {
+				"navigationBarTitleText": "行情资讯"
+			}
+		},
+		{
+			"path": "pages/offerList/index",
+			"style": {
+				"navigationBarTitleText": "平台报价",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"pullToRefresh": {
+						"support": true,
+						"color": "#ff5722",
+						"style": "default",
+						"contentdown": {
+							"caption": "下拉加载"
+						},
+						"contentover": {
+							"caption": "正在加载"
+						},
+						"contentrefresh": {
+							"caption": "加载完成"
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/information/index",
+			"style": {
+				"navigationBarTitleText": "金塑宝"
+			}
+		},
+		{
+			"path": "pages/homeUpstreamDetail/index",
+			"style": {
+				"navigationBarTitleText": "上游动态"
+			}
+		},
+		{
+			"path": "pages/plasticList/index",
+			"style": {
+				"navigationBarTitleText": "金塑观点"
+			}
+		},
+		{
+			"path": "pages/morningList/index",
+			"style": {
+				"navigationBarTitleText": "行情早报"
+			}
+		},
+
+		{
+			"path": "pages/plasticDetail/index",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/morningDetail/index",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/homeCdzy/index",
+			"style": {
+				"navigationBarTitleText": "仓单质押",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/homeZqsx/index",
+			"style": {
+				"navigationBarTitleText": "账期授信",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/homeRzzl/index",
+			"style": {
+				"navigationBarTitleText": "融资租赁",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/homeDcdx/index",
+			"style": {
+				"navigationBarTitleText": "代采代销",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/homeUpstreamList/index",
+			"style": {
+				"navigationBarTitleText": "上游动态"
+			}
+		},
+		{
+			"path": "pages/mallList/index",
+			"style": {
+				"navigationBarTitleText": "行情资讯"
+			}
+		},
+		{
+			"path": "pages/mallDetail/index",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/register/index",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/setUp/index",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/mgData/index",
+			"style": {
+				"navigationBarTitleText": "修改资料"
+			}
+		},
+		{
+			"path": "pages/dataPasword/index",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		},
+		{
+			"path": "pages/logistics/index",
+			"style": {
+				"navigationBarTitleText": "智慧物流"
+			}
+		},
+		{
+			"path": "pages/logisticsList/index",
+			"style": {
+				"navigationBarTitleText": "实时货源"
+			}
+		},
+		{
+			"path": "pages/logisticsContact/index",
+			"style": {
+				"navigationBarTitleText": "联系我们"
+			}
+		},
+		{
+			"path": "pages/logisticsAdvant/index",
+			"style": {
+				"navigationBarTitleText": "物流优势",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/logisticsProcess/index",
+			"style": {
+				"navigationBarTitleText": "合作流程",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/financeDetail/index",
+			"style": {
+				"navigationBarTitleText": "财经早读"
+			}
+		},
+		{
+			"path": "pages/logisticsFeedback/index",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "金塑宝",
+		"navigationBarBackgroundColor": "#FF5722",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#444",
+		"backgroundColor": "#fff",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/b1.png",
+				"selectedIconPath": "static/b2.png"
+			},
+			{
+				"pagePath": "pages/mall/index",
+				"text": "指数",
+				"iconPath": "static/c3.png",
+				"selectedIconPath": "static/c2.png"
+			},
+			{
+				"pagePath": "pages/logistics/index",
+				"text": "物流",
+				"iconPath": "static/d1.png",
+				"selectedIconPath": "static/d2.png"
+			},
+			{
+				"pagePath": "pages/offerList/index",
+				"text": "报价",
+				"iconPath": "static/shop.png",
+				"selectedIconPath": "static/shop0.png"
+			},
+			{
+				"pagePath": "pages/customer/myHome/index",
+				"text": "我的",
+				"iconPath": "static/a1.png",
+				"selectedIconPath": "static/a2.png"
+			}
+		]
+	}
+}

@@ -1,0 +1,77 @@
+	.grace-body{
+		width: 100%;
+		padding: 0px;
+	}
+
+
+	.hj.grace-list .items .icons {
+		color: #5ca7e2;
+		font-size: 36upx !important;
+	}
+
+	.hj .items {
+		border-bottom: 1px solid #F8F8F8;
+	}
+
+	page {
+		background-color: #eee;
+	}
+
+	.ot-Dtailes-host {
+		background-color: #fff;
+		margin: 20upx 20upx;
+		padding: 0px 30upx;
+		border-radius: 10upx;
+	}
+	
+	.grace-form .grace-items{
+		border:none;
+	}
+
+	.grace-form .grace-items .clien.other {
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+
+	.grace-form textarea {
+		font-size: 28upx;
+	}
+
+	button {
+		background-color: #fe5722 !important;
+		height: 64upx !important;
+		line-height: 64upx !important;
+	}
+
+	.ot-submit-img {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start !important;
+	}
+
+	.ot-submit-img view {
+		margin-right: 30upx;
+		line-height: 60upx;
+		height: 60upx;
+		padding: 0px 20upx;
+		box-sizing: border-box;
+		border-radius: 10upx;
+		color: #fff;
+		background-color: #fe5722 !important;
+	}
+
+	.grace-idcard-preview image {
+		width: 25%;
+	}
+
+	.grace-form .grace-items .grace-label {
+		width: 140upx;
+	}
+	.grace-form{
+		margin-top: 0px;
+		}
+
+	.grace-list .items .body {
+		padding: 0px;
+		border: none;
+	}
